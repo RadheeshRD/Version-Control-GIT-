@@ -1,0 +1,11 @@
+Git comments
+
+git init
+git add . or git add index.html
+git status
+git commit -m "commit comments"
+git log
+git restore -- staged index.html    -----> remove commits
+alias | grep git
+git diff commitID
+git reset -- hard a5ca92881a2227d41dd5f4af70fe9b7114d6413borigin/master
