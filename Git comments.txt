@@ -9,3 +9,21 @@ git restore -- staged index.html    -----> remove commits
 alias | grep git
 git diff commitID
 git reset -- hard a5ca92881a2227d41dd5f4af70fe9b7114d6413borigin/master
+
+
+============
+
+github --> git connection 
+
+C:\Users\Radheesh>git config --global user.name "RadheeshRD"
+C:\Users\Radheesh>git config --global user.email "radeesh6776@gmail.com"
+C:\Users\Radheesh>git config --global --list
+user.email=radeesh6776@gmail.com
+user.name=radeesh6776@gmail.com
+
+C:\Users\Radheesh>gh auth login
+? Where do you use GitHub?  [Use arrows to move, type to filter]
+> GitHub.com
+  Other
+  
+  login with web browser
