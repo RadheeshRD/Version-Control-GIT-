@@ -24,7 +24,7 @@ git checkout employee2         (switch to another branch)
 
 master>>git merge employee1 ( source branch)
 
-============
+============ 
 
 github --> git connection 
 
