@@ -11,9 +11,18 @@ git diff commitID
 git reset -- hard a5ca92881a2227d41dd5f4af70fe9b7114d6413borigin/master
 
 git push  ( push to github (remote) from local )
-
+git pull
 git push --set-upstream origin master
 
+
+git branch -a
+>git branch employee1
+>git switch employee1
+
+>git checkout -b employee2     ( create branch and switch automatically)
+git checkout employee2         (switch to another branch)
+
+master>>git merge employee1 ( source branch)
 
 ============
 
